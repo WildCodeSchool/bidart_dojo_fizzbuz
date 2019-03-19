@@ -1,6 +1,6 @@
 // If else method
 
-let number = process.argv[2] // entrer le paramètre dans la console process.argv[]
+//let number = process.argv[2] // entrer le paramètre dans la console process.argv[]
 
 let fizzbuzz = number => {
   if (number % 3 == 0 && number % 5 == 0) {
