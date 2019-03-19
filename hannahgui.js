@@ -46,6 +46,7 @@ function ezpz(number){
     }
         console.log(number);
     
+    // stdin / stdout
     process.stdin.resume()
     process.stdin.setEncoding('utf8')
         
