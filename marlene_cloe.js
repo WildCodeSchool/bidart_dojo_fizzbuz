@@ -18,6 +18,6 @@ function multiple (num){
         return num
     }
 }
-let result = multiple(35);
+let result = multiple(num);
 
 console.log(result);
