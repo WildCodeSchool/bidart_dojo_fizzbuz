@@ -1,10 +1,17 @@
+/*Écrire un programme qui renvoie :
+1 - "fizz" dans le cas où le nombre passé en paramètre est un multiple de 3
+2 - "buzz" dans le cas où le nombre passé en paramètre est un multiple de 5
+3 - "fizzbuzz" dans le cas où le nombre passé est à la fois un multiple de 3 et de 5
+4 - Le nombre dans le cas où ce dernier n’est ni un multiple de 3 ni un multiple de 5
+5 - parametre a rentrer dans la console*/
+
+
 process.stdin.resume()
 process.stdin.setEncoding('utf8')
 
 
 console.log('Enter a number')
 process.stdin.on('data', (number) => {
-    if (number < 100) { 
         if (number % 3 === 0 && number % 5 === 0) {
             console.log('fizzbuzz');
 
@@ -16,9 +23,6 @@ process.stdin.on('data', (number) => {
         } else {
             console.log(number);
         }
-    } else{
-        console.log('Your number must be <100')
-    }    
     process.exit()
 })
 
