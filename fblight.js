@@ -1,0 +1,1 @@
+for(i=0;++i<101;){i%3==0?k='fizz':k='';i%5==0?k+='buzz':0;console.log(!k?i:k)}
