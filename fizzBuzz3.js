@@ -11,3 +11,7 @@ function dojoFn(x) {
 for (let x = 0; x < 100; x++) {
     dojoFn(x);
 }
+
+let args = process.argv;
+
+console.log(dojoFn(args));
