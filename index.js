@@ -11,8 +11,10 @@ process.stdin.on('data', (num) =>  {
     console.log( "fizz");
   } else {
     console.log(num);
-    process.exit()
-  }
-})
+
+  }process.exit()
+})    
+
+
 
 
