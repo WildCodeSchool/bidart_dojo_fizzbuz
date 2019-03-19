@@ -1,12 +1,14 @@
 function ezpz(number){
     if (number%3 !=0){
-    console.log('fizz');
+    return('fizz');
     } else if (number%5 !=0){
-    console.log('buzz');
+    return('buzz');
     } else if ((i % 3 === 0 )||(i % 5 === 0)||(i % 3 === 0 && i % 5 === 0)){
     sum = sum + i;
-    console.log('fizzbuzz');
+    return('fizzbuzz');
     } else {
-    console.log(number)
+    return(number)
     }
     }
+    console.log(number);
+    
