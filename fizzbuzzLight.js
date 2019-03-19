@@ -1,0 +1,1 @@
+const f=(n)=>(n%3==0&&n%5==0)?"fizzbuzz":(n%5==0)?"buzz":(n%3==0)?"fizz":n;for(i=1;i<100;i++)console.log(f(i));

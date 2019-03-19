@@ -1,49 +1,3 @@
-#!/usr/bin/env node
-
-
-
-// const fizzbuzz = (numb) => {
-//     let result = "";
-
-//     if (numb % 3 === 0 && numb % 5 === 0) {
-//         result = "fizzbuzz";
-//     }
-
-//     else if (numb % 5 === 0) {
-//         result = "buzz";
-//     }
-
-//     else if (numb % 3 === 0) {
-//         result = "fizz";
-//     }
-
-//     else {
-//         result = numb;
-//     }
-
-//     return result;
-// }
-
-// const fizzbuzz = (numb) => {
-//     let result = "";
-
-//     if (numb % 3 === 0) {
-//         result += "fizz";
-//     }
-
-//     if (numb % 5 === 0) {
-//         result += "buzz";
-//     }
-
-//     if (result == "") {
-//         result = numb;
-//     }
-
-//     return result;
-// }
-
-
-
 const fizzbuzz = (numb) => {
     let result = "";
 
@@ -56,6 +10,9 @@ const fizzbuzz = (numb) => {
     return result;
 }
 
+for (let i = 1; i < 100; i++) {
+    console.log(`i= ${i}, result = ${fizzbuzz(i)}`);
+}
 
 
 process.stdin.resume();
