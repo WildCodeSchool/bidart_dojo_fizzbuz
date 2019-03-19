@@ -12,6 +12,6 @@ for (let x = 0; x < 100; x++) {
     dojoFn(x);
 }
 
-let args = process.argv;
+let args = process.argv.slice(2);
 
 console.log(dojoFn(args));
